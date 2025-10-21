@@ -1,0 +1,5 @@
+config SHIELD_RAYWING_LEFT
+    def_bool $(shields_list_contains, raywing_left)
+
+config SHIELD_RAYWING_RIGHT
+    def_bool $(shields_list_contains, raywing_right)
